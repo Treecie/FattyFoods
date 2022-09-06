@@ -16,7 +16,7 @@ import ViewOrders from "./components/ViewOrders";
 import logic from "./logic";
 import { Route, withRouter, Redirect } from "react-router-dom";
 
-logic.url = "https://"; //to use serverside connected to heroku
+logic.url = "https://https://fattyfoodsapp.herokuapp.com/"; //to use serverside connected to heroku
 // logic.url = "http://localhost:3000/api"; //to use serverside of this repo
 
 const App = props => {
