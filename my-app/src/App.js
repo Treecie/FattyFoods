@@ -15,7 +15,7 @@ import ViewOrders from "./components/ViewOrders";
 
 //Logic
 import logic from "./logic";
-import { withRouter, Route, Redirect} from "react-router-dom";
+import { BrowserRouter as Route, Redirect, withRouter, Switch } from "react-router-dom";
 
 logic.url = "https://https://fattyfoodsapp.herokuapp.com/"; //to use serverside connected to heroku
 // logic.url = "http://localhost:3000/api"; //to use serverside of this repo
@@ -27,7 +27,7 @@ const App = props => {
   const handleGoBack = () => props.history.push("/");
 
   return (
-    <div className="container-app">
+    <Switch>
       <Route
         exact
         path="/"
@@ -99,7 +99,7 @@ const App = props => {
         path="/setorder"
         render={() => (logic.loggedIn ? <SetOrder /> : <Redirect to="/" />)}
       />
-    </div>
+    </Switch>
   );
 };
 
