@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FattyFoods/static/css/main.e6c13ad2.css",
+    "main.js": "/FattyFoods/static/js/main.b166e660.js",
+    "static/js/787.28cb0dcd.chunk.js": "/FattyFoods/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/FattyFoods/index.html",
+    "main.e6c13ad2.css.map": "/FattyFoods/static/css/main.e6c13ad2.css.map",
+    "main.b166e660.js.map": "/FattyFoods/static/js/main.b166e660.js.map",
+    "787.28cb0dcd.chunk.js.map": "/FattyFoods/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.b166e660.js"
+  ]
+}
