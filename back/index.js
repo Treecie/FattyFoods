@@ -1,6 +1,6 @@
 require('dotenv').config()
 
-const { mongoose } = require ('planbe-data')
+const { mongoose } = require ('fattyfoods-data')
 const express = require('express')
 const package = require('./package.json')
 const router = require('./routes')
