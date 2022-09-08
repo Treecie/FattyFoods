@@ -3,8 +3,8 @@ import React from "react";
 const Landing = props => (
   <div className="landing-container">
     <h1 className="landing-title" data-letters="Fatty Foods">
-      plan<span className="landing-underline-b">F</span>
-      <span className="landing-e">s</span>
+      plan<span className="landing-underline-">F</span>
+      <span className="landing-">s</span>
     </h1>
     <h2 className="landing-subtitle">keto living</h2>
 
