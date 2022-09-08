@@ -224,7 +224,7 @@ body {
   .spinner-container {
     width: 100%;
     text-align: center;
-    color: lawngreen;
+    color: rgb(0, 193, 252);
     margin-bottom: 10px;
   }
   
@@ -276,7 +276,7 @@ body {
   
   .correct {
     align-self: center;
-    color: lawngreen;
+    color: rgb(0, 214, 252);
     font-weight: 700;
   }
   
@@ -303,7 +303,7 @@ body {
   }
   
   .navbar__link--active {
-    background-color: rgb(122, 160, 96);
+    background-color: rgb(96, 131, 160);
     text-shadow: 3px 2px 3px hsl(2, 49%, 12%);
   }
   
@@ -588,7 +588,7 @@ body {
   
   /* PRODUCT */
   .product__container {
-    background-color: rgba(73, 146, 66, 0.863);
+    background-color: rgba(66, 91, 146, 0.863);
     color: white;
     width: 15%;
     min-width: 200px;
@@ -605,7 +605,7 @@ body {
   }
   
   .product__container:hover {
-    background-color: hsla(115, 45%, 65%, 0.725);
+    background-color: hsla(197, 45%, 65%, 0.725);
     box-shadow: 2px 2px 10px #000000da;
   }
   
