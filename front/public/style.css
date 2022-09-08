@@ -20,12 +20,12 @@ body {
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #315d1f;
+    background: #3a5f96;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgb(122, 160, 96);
+    background: rgb(174, 179, 171);
   }
   
   /* ----------------- */
@@ -58,7 +58,7 @@ body {
   }
   
   .landing-title::after {
-    background: #f03d07;
+    background: #979594;
     -webkit-transform: translate3d(-300%, 0, 0) scale3d(0, 1, 1);
     transform: translate3d(-300%, 0, 0) scale3d(0, 1, 1);
   }
@@ -76,7 +76,7 @@ body {
   }
   
   .landing-title span {
-    color: hsl(14, 84%, 48%);
+    color: hsl(214, 84%, 48%);
     display: inline-block;
     position: relative;
     -webkit-transform: perspective(1000px) rotate3d(0, 1, 0, 0deg);
