@@ -15,3 +15,6 @@ What challenges did you encounter? I was unable to get the app to load more than
 
 Directions for future development: It would great if this app supported more than one kind of diet...Vegan and Paleo come to mind. 
 
+## Website Deployment
+
+https://fattyfoodsapp.herokuapp.com/
